@@ -1,0 +1,213 @@
+/* ========== 页面基础结构 ========== */
+.page {
+    width: 960px;
+    margin: 0 auto;
+    padding: 2rem 1rem 4rem;
+    color: #e5e5e5;
+    font-family: Inter, sans-serif;
+}
+
+.heading {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    min-width: 450px;
+}
+
+
+/* ========== 卡片样式 ========== */
+.card {
+    background: #1b1b1b;
+    border: 1px solid #333;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.cardTitle {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+
+/* ========== 表单样式 ========== */
+.fieldRow {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.label {
+    font-weight: bold;
+    color: #ccc;
+}
+
+.input,
+.select,
+.textarea {
+    flex: 1;
+    background: #111;
+    border: 1px solid #444;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.95rem;
+    color: #eee;
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+}
+
+.select {
+    min-width: 160px;
+}
+
+.textarea {
+    resize: vertical;
+    width: 95%;
+}
+
+
+/* ========== 按钮样式 ========== */
+.btn {
+    padding: 0.45rem 1.1rem;
+    background: #2563eb;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.btn:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.btn:not(:disabled):hover {
+    opacity: 0.85;
+}
+
+
+/* ========== 工具类 ========== */
+.inlineFlex {
+    display: flex;
+    gap: 0.75rem;
+    width: 100%;
+}
+
+.inlineFlex > .input {
+    flex: 1 1 auto;
+}
+
+.inlineFlex > .btn {
+    flex: 0 0 auto;
+    white-space: nowrap;
+}
+
+
+/* ========== Prompt 顶部区域 ========== */
+.promptHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+
+
+/* ========== 结果展示框 ========== */
+.resultBox {
+    background: #0e0e0e;
+    border: 1px solid #444;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    white-space: pre-wrap;
+    word-break: break-all;
+    min-height: 150px;
+    overflow: auto;
+    text-align: left;
+}
+
+
+/* ========== 响应式 Grid 工具类 ========== */
+.grid2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+}
+
+/* ≥640px：正常多列 */
+@media (min-width: 640px) {
+    .grid2 {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .grid3 {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+
+/* ≤639px：手机适配 */
+@media (max-width: 639px) {
+    .card {
+        padding: 1.25rem;
+    }
+
+    .fieldRow {
+        margin-bottom: 0.75rem;
+    }
+}
+
+
+/* ========== Presets & Models 特殊样式 ========== */
+.presetsGrid .fieldRow {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1.2rem;
+}
+
+.presetsGrid .label {
+    flex: 0 0 auto;
+    margin-bottom: 0.3rem;
+}
+
+
+/* ========== grid2 中的垂直排列 fieldRow ========== */
+.grid2 .fieldRow {
+    flex-direction: column;
+}
+
+
+/* ========== Hotel 信息卡片样式 ========== */
+.hotelCard .fieldRow {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 1rem;
+}
+
+.hotelCard .label {
+    justify-self: end;
+}
+
+
+/* ========== 模板选择样式 ========== */
+.templateSelect {
+    flex: 0 0 auto;
+    width: auto;
+    background: #111;
+    border: 1px solid #444;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.95rem;
+    color: #eee;
+}

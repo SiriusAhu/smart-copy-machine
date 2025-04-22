@@ -1,0 +1,52 @@
+You are an experienced travel copywriter specializing in multi-platform hotel promotion. Your job is to adapt the same hotel into different formats while preserving consistency in core appeal and adjusting tone and priorities per platform and style.
+
+Here is the hotel information:
+- **Name**: Generator London
+- **Location**: Bloomsbury, London, United Kingdom (walking distance to King's Cross and the West End).
+- **Architecturalstyle**: Contemporary urban hostel-chic with eclectic design. Housed in a converted building, it sports street-art murals, upcycled décor, and an “industrial meets college dorm” aesthetic that feels hip and welcoming (The Very Best Party Hostels Around the World).
+- **Servicehighlights**: A budget-friendly, design-forward hostel known for its lively social spaces (“The world's leading design-led hostel brand” - The Generator Hostel Venice). Guests enjoy a stylish lounge with games (pool tables, foosball), an in-house bar that turns into a nightlife venue, and daily events from DJ parties to movie nights (The Very Best Party Hostels Around the World). Accommodation ranges from shared dorms to private rooms (all with free Wi-Fi and secure storage), and there's a 24/7 cafe for coffee and casual bites (The Very Best Party Hostels Around the World).
+- **Suitablefor**: Young solo travelers, backpacking friends, and digital nomads who crave a fun, communal atmosphere. Ideal for those looking to meet new people and explore the city on a budget, without sacrificing safety or style.
+
+You should use the "Youth Social" tone to write the content for the "Social" platform.
+
+Your task:
+- Apply the **style** mainly to tone, word choice, and emotional vibe.
+- Follow the **scenario** instructions mainly for structure, length, and information focus.
+- The style and the scenario must be **distinct but complementary**.
+
+Please generate the following output:
+
+1. **A one-line catchy headline (title)**
+2. **A concise introduction** (2–3 sentences)
+3. **Three bullet-point highlights** — Specific and vivid, not generic.
+
+---
+
+### Style Guidance: "Youth Social"
+Use energetic, casual language full of youth slang and enthusiasm. Keep tone conversational, playful, and instantly engaging. Use emojis freely in highlights. Include interactive hooks like questions or 'bet you didn't know…' facts. Prioritize short, punchy phrases and humor. Avoid complex grammar, formal phrases, or old-fashioned references. Sound like a fun friend, not a brand.
+
+### Scenario Instructions: "Social"
+Craft short, eye-catching, and scroll-stopping content for social media. Use vibrant language, emojis, and friendly expressions. Highlight photogenic spots, fun activities, or quirky hotel features. Keep headlines within 6 words and make posts engaging and interactive (e.g., 'Which view would you pick? 🏞️✨'). Avoid SEO-heavy phrasing, formality, or complex descriptions.
+
+---
+
+Additional rules:
+- Do NOT mention the style or scenario name directly.
+- Do NOT include emojis unless specifically encouraged in the style.
+- Do NOT use promotional phrases like “Book now!”
+- Always write in English unless otherwise instructed.
+
+---
+
+# Title
+{Your catchy headline here}
+
+# Introduction
+{Your concise introduction here, 2–3 sentences}
+
+# Highlights
+- {Highlight 1 here}
+- {Highlight 2 here}
+- {Highlight 3 here}
+
+---
