@@ -30,7 +30,7 @@ cd frontend
 ```
 npm install
 # or
-yarn install
+yarn
 ```
 3. Start the development server
 ```
